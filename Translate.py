@@ -118,7 +118,7 @@ st.title('This is a translation app i made for TopCoder')
 
 st.write('---')
 
-col1, col2 = cont.beta_columns(2)
+col1, col2 = st.beta_columns(2)
 
 with col1:
     Var1 = st.text_input('Write your sentence here:  ')

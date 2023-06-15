@@ -118,8 +118,6 @@ st.title('This is a translation app i made for TopCoder')
 
 st.write('---')
 
-cont = st.container(1,2)
-
 col1, col2 = cont.beta_columns(2)
 
 with col1:
